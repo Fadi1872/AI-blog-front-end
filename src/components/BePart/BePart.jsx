@@ -2,7 +2,7 @@ import './BePart.css'
 
 function BePart() {
     return (
-        <div>BePart</div>
+        <div className='vh-100'>BePart</div>
     )
 }
 
