@@ -1,0 +1,36 @@
+.fa_NumCard{
+    padding-block: 50px;
+    width: 248px;
+}
+
+.fa_NumCard p:first-child{
+    margin-bottom: 10px;
+}
+.fa_NumCard p:first-child span{
+    color: var(--yellow-55);
+}
+
+@media screen and (max-width: 1919px){
+    .fa_NumCard{
+        padding-block: 30px;
+        width: 199px;
+    }
+
+    .fa_NumCard p:first-child{
+        margin-bottom: 0px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .fa_NumCard{
+        padding-block: 30px;
+        width: 130px;
+    }
+}
+
+@media screen and (max-width: 576px){
+    .fa_NumCard{
+        padding-block: 20px;
+        min-width: 80px;
+    }
+}
