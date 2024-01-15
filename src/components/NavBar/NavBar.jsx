@@ -63,14 +63,14 @@ useEffect(() => {
             <Link to='contact' className='fa_nav-contact sub_title-125 d-inline d-sm-none'>
               Contact Us
             </Link>
-            <IoCloseOutline className='fa_nav-close_menu d-md-none' />
+            <IoCloseOutline className='fa_nav-close_menu d-lg-none' />
           </nav>
           <div className={`fa_overlay ${open && 'fa_nav-open'}`} onClick={() => setopen(false)}></div>
           <div>
             <Link to='contact' className='fa_nav-contact sub_title-125 d-none d-sm-inline'>
               Contact Us
             </Link>
-            <HiMenuAlt3 className='text-white fa_nav-menu d-md-none ms-4' onClick={() => setopen(true)} />
+            <HiMenuAlt3 className='text-white fa_nav-menu d-lg-none ms-4' onClick={() => setopen(true)} />
           </div>
         </div>
       </div>

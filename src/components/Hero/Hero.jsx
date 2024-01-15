@@ -10,16 +10,21 @@ import { Link } from 'react-router-dom'
 
 import NumbersData from '../../data/numbers'
 import NumCard from '../NumCard/NumCard'
+import HeroNews from '../HeroNews/HeroNews'
+
+import news1 from './../../assets/HreoNews1.svg'
+import news2 from './../../assets/HreoNews2.svg'
+import news3 from './../../assets/HreoNews3.svg'
 
 function Hero() {
   const users = [user1, user2, user3, user4];
   return (
     <>
-      <div className='fa_hero'>
+      <div className='fa_hero fa_border-bottom'>
         <div className="container_custom h-100">
-          <Row className='h-100 fa_border-bottom'>
-            <Col lg={7} className='d-flex flex-column h-lg-100'>
-              <div className='flex-grow-1 d-flex flex-column justify-content-center'>
+          <Row className='h-100'>
+            <Col lg={7} className='d-flex flex-column fa_custom-minheight'>
+              <div className='flex-grow-1 d-flex flex-column justify-content-center fa_hreotitle-padding'>
                 <p className='fa_top-title fa_hero-toptitle'>Your Journey to Tomorrow Begins Here</p>
                 <h1 className='text-white title-4b fa_hero-title'>Explore the Frontiers of Artificial Intelligence</h1>
                 <p className='sub_title-125 text-gray-50'>Welcome to the epicenter of AI innovation. FutureTech AI News is your passport to a world where machines think, learn, and reshape the future. Join us on this visionary expedition into the heart of AI.</p>
@@ -40,7 +45,7 @@ function Hero() {
                 }
               </div>
             </Col>
-            <Col lg={5} className='fa_hero-background h-lg-100 d-flex align-items-end'>
+            <Col lg={5} className='fa_hero-background fa_custom-minheight d-flex align-items-end'>
               <div className='d-flex align-items-start flex-column fa_gap-30'>
                 <UsersPics users={users} />
                 <div>
@@ -53,6 +58,27 @@ function Hero() {
                 </Link>
               </div>
             </Col>
+          </Row>
+        </div>
+      </div>
+      <div className='fa_border-bottom fa_background-08'>
+        <div className='container_custom'>
+          <Row>
+            <HeroNews
+              img={news1}
+              title='Latest News Updates'
+              subtitle='Stay Current'
+              discription='Over 1,000 articles published monthly' />
+            <HeroNews
+              img={news2}
+              title='Expert Contributors'
+              subtitle='Trusted Insights'
+              discription='50+ renowned AI experts on our team' />
+            <HeroNews
+              img={news3}
+              title='Global Readership'
+              subtitle='Worldwide Impact'
+              discription='2 million monthly readers' />
           </Row>
         </div>
       </div>

@@ -103,7 +103,7 @@
     }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 992px) {
     .fa_navLinks {
         background-color: var(--dark-10);
         position: fixed;

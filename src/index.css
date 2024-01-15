@@ -98,7 +98,7 @@
 
 .container_custom {
   max-width: 1564px;
-  padding: 0 16px;
+  padding-inline: 16px !important;
   margin-inline: auto;
 }
 
@@ -107,7 +107,7 @@
   height: 24px;
 }
 
-.main_button{
+.main_button {
   padding: 18px 24px;
   border: 1px solid var(--dark-15);
   border-radius: 12px;
@@ -130,19 +130,29 @@
     letter-spacing: -0.0375rem;
   }
 
-  .main_button{
+  .main_button {
     padding: 14px 20px;
     border-radius: 8px;
   }
 
-  .title-4b{
+  .title-4b {
     font-size: 3.4375rem;
     letter-spacing: -0.10313rem;
   }
 
-  .title-2{
+  .title-2 {
     font-size: 1.875rem;
     letter-spacing: -0.05625rem;
+  }
+
+  .title-25-5 {
+    font-size: 1.125rem;
+    letter-spacing: -0.03375rem;
+  }
+
+  .title-25-4 {
+    font-size: 1rem;
+    letter-spacing: -0.03rem;
   }
 }
 
@@ -166,14 +176,24 @@
     letter-spacing: -0.03375rem;
   }
 
-  .title-4b{
+  .title-4b {
     font-size: 1.875rem;
     letter-spacing: -0.05625rem;
   }
 
-  .title-2{
+  .title-2 {
     font-size: 1.5rem;
     letter-spacing: -0.045rem;
+  }
+
+  .title-25-5 {
+    font-size: 1rem;
+    letter-spacing: -0.03rem;
+  }
+
+  .title-25-4 {
+    font-size: 0.875rem;
+    letter-spacing: -0.02625rem;
   }
 }
 
@@ -188,4 +208,14 @@
 ::-webkit-scrollbar-thumb {
   background: var(--yellow-55);
   border-radius: 3px;
+}
+
+
+
+
+
+/* Fadi's Global use classes */
+
+.fa_border-bottom {
+  border-bottom: 1px solid var(--dark-15);
 }
