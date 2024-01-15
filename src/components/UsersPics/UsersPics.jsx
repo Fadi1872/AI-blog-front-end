@@ -1,8 +1,8 @@
 import './UsersPics.css'
 
-function UsersPics({users}) {
+function UsersPics({users, small}) {
     return (
-        <div className='d-flex fa_userimg-container'>
+        <div className={`d-flex fa_userimg-container ${small && 'fa_small'}`}>
             {
                 users.map((img, index) => (
                     <div key={index} className='fa_userimg'>

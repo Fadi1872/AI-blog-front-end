@@ -1,5 +1,5 @@
 .fa_userimg:first-child {
-    margin-left: 0px;
+    margin-left: 0px !important;
 }
 
 .fa_userimg {
@@ -19,12 +19,26 @@
     border-radius: 35px;
 }
 
+.fa_userimg-container.fa_small .fa_userimg {
+    width: 50px;
+    margin-left: -9px;
+}
+
+.fa_userimg-container.fa_small {
+    border-radius: 12px;
+    background-color: var(--dark-08);
+}
+
 
 
 
 @media screen and (max-width: 1919px) {
     .fa_userimg {
         width: 50px;
+    }
+
+    .fa_userimg-container.fa_small .fa_userimg {
+        width: 40px;
     }
 
     .fa_userimg-container {
