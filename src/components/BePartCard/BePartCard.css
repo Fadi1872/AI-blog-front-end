@@ -1,11 +1,5 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
 .HJ_Bepart_Card {
-    border: 1px solid var(--dark-15); 
+    border: 1px solid var(--dark-15);
     border-radius: 12px;
     background: var(--dark-10);
     display: flex;
@@ -13,7 +7,6 @@
     align-items: flex-start;
     gap: 20px;
     padding: 40px;
-    margin-left: 20px;
 }
 
 .HJ_Bepart_Card .HJ_description_card {
@@ -58,15 +51,13 @@
 }
 
 @media screen and (max-width: 1919px) {
-   .HJ_Bepart_Card {
+    .HJ_Bepart_Card {
         padding: 30px;
         gap: 16px;
-        margin-left: 10px;
         border-radius: 10px;
+    }
 
-    } 
-
-    .HJ_Bepart_Card .HJ_content_card { 
+    .HJ_Bepart_Card .HJ_content_card {
         gap: 16px;
     }
 
@@ -84,19 +75,17 @@
     .HJ_Bepart_Card .HJ_content_card .HJ_circle {
         width: 44px;
         height: 44px;
-
-    }  
+    }
 
 }
 
-@media screen and (max-width:576px) {
+@media screen and (max-width : 992px) {
     .HJ_Bepart_Card {
         display: flex;
-        padding:24px;
+        padding: 14px;
         flex-direction: column;
         align-items: flex-start;
-        gap: 10px;
-       
+        gap: 5px;
     }
 
     .HJ_Bepart_Card .HJ_content_card {
@@ -117,22 +106,15 @@
         letter-spacing: -0.42px;
     }
 
-    .HJ_Bepart_Card .HJ_content_card .HJ_circle {
-        width: 40px;
-        height: 40px;
-
-    }
-
 }
-@media screen and (min-width: 577px) and (max-width : 992px){
+
+@media screen and (max-width:576px) {
     .HJ_Bepart_Card {
         display: flex;
-        padding:14px;
+        padding: 24px;
         flex-direction: column;
         align-items: flex-start;
-        gap: 5px;
-        margin-left: 3px;
-    
+        gap: 10px;
 
     }
 
@@ -144,25 +126,6 @@
         align-self: stretch;
     }
 
-    .HJ_Bepart_Card .HJ_content_card .HJ_subtile_card {
-        font-size: 9px;
-        letter-spacing: -0.48px;
-    }
-
-    .HJ_Bepart_Card .HJ_description_card {
-        font-size: 6px;
-        letter-spacing: -0.42px;
-    }
-
-    .HJ_Bepart_Card .HJ_content_card .HJ_circle {
-        width: 20px;
-        height: 20px;
-
-    }
-    .HJ_Bepart_Card .HJ_content_card .HJ_circle img{
-        width: 11px;
-        height: 11px;
-    }
 
 
 }
