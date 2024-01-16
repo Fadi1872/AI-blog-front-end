@@ -27,7 +27,12 @@
 .text-gray-60 {
   color: var(--gray-60);
 }
-
+.bg-dark-08 {
+  background-color: var(--dark-08);
+}
+.bg-dark-10 {
+  background-color: var(--dark-10);
+}
 .sub_title-125 {
   font-family: var(--inter);
   font-size: 1.125rem;
