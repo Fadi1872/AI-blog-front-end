@@ -74,7 +74,7 @@ function Hero() {
               title='Expert Contributors'
               subtitle='Trusted Insights'
               discription='50+ renowned AI experts on our team' />
-            <HeroNews
+            <HeroNews 
               img={news3}
               title='Global Readership'
               subtitle='Worldwide Impact'

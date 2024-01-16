@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 
 function HeroNews({img, title, subtitle, discription}) {
     return (
-        <Col lg={4} xs={12} className='fa_HeroNews-container fa_border-bottom'>
+        <Col lg xs={12} className='fa_HeroNews-container fa_border-bottom'>
             <div>
                 <img src={img} alt="icon" className='fa_HeroNews-icon' />
             </div>
