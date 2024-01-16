@@ -1,0 +1,36 @@
+.fa_userwords-img{
+    width: 60px;
+    aspect-ratio: 1;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.fa_realwords-container{
+    padding-block: 80px;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1919px){
+    .fa_userwords-img{
+        width: 50px;
+    }
+    .fa_realwords-container{
+        padding-block: 60px;
+    }
+}
+
+@media screen and (max-width: 992px){
+
+}
+
+@media screen and (max-width: 576px){
+    .fa_realwords-container{
+        padding-block: 40px;
+    }
+}

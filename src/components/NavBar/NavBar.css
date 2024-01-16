@@ -3,14 +3,10 @@
     background-color: var(--dark-08);
 }
 
-.fa_arrow-icon {
-    width: 24px;
-    height: 24px;
-}
-
 .fa_navbar {
     background-color: var(--dark-10);
     padding: 24px 0;
+    z-index: 12000;
 }
 
 .fa_nav-logo {
@@ -74,16 +70,12 @@
     backdrop-filter: blur(10px);
     transform: translateX(100%);
     transition: .5s;
+    z-index: 11999;
 }
 
 @media screen and (max-width: 1920px) {
     .fa_top-nav {
         padding: 12px 0;
-    }
-
-    .fa_arrow-icon {
-        width: 20px;
-        height: 20px;
     }
 
     .fa_navbar {
@@ -111,7 +103,7 @@
     }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 992px) {
     .fa_navLinks {
         background-color: var(--dark-10);
         position: fixed;
@@ -125,7 +117,7 @@
         justify-content: center;
         transform: translateX(100%);
         transition: .5s;
-        z-index: 9999;
+        z-index: 12000;
     }
 }
 

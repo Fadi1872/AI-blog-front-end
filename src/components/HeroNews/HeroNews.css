@@ -1,0 +1,65 @@
+.fa_HeroNews-container {
+    padding-block: 50px;
+    padding-inline: 80px !important;
+}
+
+.fa_HeroNews-icon {
+    width: 49.993px;
+    margin-bottom: 30px;
+}
+
+.fa_HeroNews-Button {
+    padding: 14px;
+    border-radius: 50%;
+    background-color: var(--yellow-55);
+}
+
+.fa_HreoNews-text-margin {
+    margin-bottom: 30px;
+}
+
+
+
+
+@media screen and (max-width: 1919px) {
+    .fa_HeroNews-container {
+        padding-block: 40px;
+        padding-inline: 50px !important;
+    }
+
+    .fa_HeroNews-icon {
+        width: 39.994px;
+        margin-bottom: 20px;
+    }
+
+    .fa_HreoNews-text-margin {
+        margin-bottom: 20px;
+    }
+
+    .fa_HeroNews-Button {
+        padding: 12px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .fa_HeroNews-container {
+        padding-block: 30px;
+        padding-inline: 16px !important;
+    }
+}
+
+@media screen and (max-width: 576px) {
+
+    .fa_HeroNews-icon {
+        width: 29.996px;
+        margin-bottom: 16px;
+    }
+
+    .fa_HreoNews-text-margin {
+        margin-bottom: 10px;
+    }
+
+    .fa_HeroNews-Button {
+        padding: 10px;
+    }
+}
