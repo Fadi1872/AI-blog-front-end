@@ -18,6 +18,11 @@
   --inter: "Inter", sans-serif;
 }
 
+
+.text-absolute-White{
+  color: var(--absolute-White);
+}
+
 .text-dark-40 {
   color: var(--dark-40);
 }
@@ -166,6 +171,12 @@
     font-size: 1rem;
     letter-spacing: -0.03rem;
   }
+  .title-3{
+    font-size: 2.75rem;
+    letter-spacing: -0.0825rem;
+  }
+  
+ 
 }
 
 @media screen and (max-width: 576px) {
@@ -207,6 +218,12 @@
     font-size: 0.875rem;
     letter-spacing: -0.02625rem;
   }
+
+  .title-3{
+    font-size: 1.75rem;
+    letter-spacing: -0.0525rem;
+  }
+
 }
 
 ::-webkit-scrollbar {
@@ -230,4 +247,22 @@
 
 .fa_border-bottom {
   border-bottom: 1px solid var(--dark-15);
+}
+
+/* Hind's Global use classes */
+
+.HJ_subTitle {
+  width: max-content;
+  border-radius: 4px;
+  background: var(--dark-20);
+  font-family: var(--inter);
+  color: var(--absolute-White);
+  font-size: 1.25rem; 
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: -0.0375rem;
+  padding: 6px 10px;
+  display: flex;
+  align-items: center;
+
 }
