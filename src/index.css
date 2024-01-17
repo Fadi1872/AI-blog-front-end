@@ -11,8 +11,8 @@
   --dark-40: #666;
   --gray-50: #7E7E7E;
   --gray-60: #989898;
-  
-  --absolute-White :#FFF;
+
+  --absolute-White: #FFF;
 
   --kumbh-sans: "Kumbh Sans", sans-serif;
   --inter: "Inter", sans-serif;
@@ -29,12 +29,15 @@
 .text-gray-60 {
   color: var(--gray-60);
 }
+
 .bg-dark-08 {
   background-color: var(--dark-08);
 }
+
 .bg-dark-10 {
   background-color: var(--dark-10);
 }
+
 .sub_title-125 {
   font-family: var(--inter);
   font-size: 1.125rem;
@@ -123,7 +126,7 @@
   transition: .3s;
 }
 
-.main_button:hover{
+.main_button:hover {
   background-color: var(--dark-15);
 }
 
@@ -166,6 +169,11 @@
     font-size: 1rem;
     letter-spacing: -0.03rem;
   }
+
+  .title-5 {
+    font-size: 1.25rem;
+    letter-spacing: -0.0375rem;
+  }
 }
 
 @media screen and (max-width: 576px) {
@@ -206,6 +214,11 @@
   .title-25-4 {
     font-size: 0.875rem;
     letter-spacing: -0.02625rem;
+  }
+
+  .title-5 {
+    font-size: 1.125rem;
+    letter-spacing: -0.03375rem;
   }
 }
 

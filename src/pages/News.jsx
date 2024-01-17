@@ -1,5 +1,6 @@
 import React from 'react'
 import PageTitle from '../components/PageTitle/PageTitle'
+import FeaturedVideos from '../components/FeaturedVideos/FeaturedVideos'
 
 function News() {
   return (
@@ -8,6 +9,7 @@ function News() {
       title1="Today's Headlines: Stay" 
       title2="Informed" 
       summary="Explore the latest news from around the world. We bring you up-to-the-minute updates on the most significant events, trends, and stories. Discover the world through our news coverage."/>
+      <FeaturedVideos />
     </div>
   )
 }
