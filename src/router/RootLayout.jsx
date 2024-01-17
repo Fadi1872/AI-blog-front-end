@@ -3,6 +3,10 @@ import { Outlet, ScrollRestoration } from 'react-router-dom'
 import NavBar from '../components/NavBar/NavBar'
 import Footer from '../components/Footer/Footer'
 import BePart from '../components/BePart/BePart'
+import SectionTitle from '../components/SectionTitle/SectionTitle'
+import SectionTitle_GroupButtons from '../components/SectionTitle_groupButtons/SectionTitle_GroupButtons'
+import SectionTitle_Button from '../components/SectionTitle_button/SectionTitle_Button'
+
 
 
 
@@ -13,6 +17,17 @@ function RootLayout() {
             <main>
                 <Outlet />
             </main>
+            <SectionTitle_Button subtitle='Your Gateway to In-Depth Information' title='Unlock Valuable Knowledge with FutureTechs Resources'  buttontext ='View All Resources'/>
+          {/*   <SectionTitle_Button subtitle='A Knowledge Treasure Trove' title='Explore FutureTechs In-Depth Blog Posts'  buttontext ='View All Blogs'/>
+            <SectionTitle_Button subtitle='What Our Readers Say' title='Real Words from Real Readers'  buttontext ='View All Testimonials'/>
+            <SectionTitle_Button subtitle='Welcome to Our News Hub' title='Discover the World of Headlines'  buttontext ='View All News'/>
+            <SectionTitle_Button subtitle='Featured Videos' title='Visual Insights for the Modern Viewer'  buttontext ='View All'/>
+            <SectionTitle  subtitle='Stay Informed with Fresh Content' title='Latest Podcast Episodes' />
+            <SectionTitle subtitle='Unlock the Power of' title='FutureTech Features' />
+            <SectionTitle_GroupButtons subtitle='Dive into the Details' title='In-Depth Reports and Analysis' /> */}
+            
+             
+
             <BePart />
             <Footer />
             <ScrollRestoration />
