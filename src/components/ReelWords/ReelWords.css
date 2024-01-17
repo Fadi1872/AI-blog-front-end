@@ -8,14 +8,13 @@
 }
 
 .fa_realword-grid .fa_realwords-container:nth-child(2),
-.fa_realword-grid .fa_realwords-container:nth-child(5)
-{
+.fa_realword-grid .fa_realwords-container:nth-child(5) {
     position: relative;
     border-left: 1px solid var(--dark-15);
     border-right: 1px solid var(--dark-15);
 }
 
-.fa_realword-grid .fa_realwords-container:nth-child(2)::after{
+.fa_realword-grid .fa_realwords-container:nth-child(2)::after {
     content: '';
     position: absolute;
     bottom: 0;
@@ -30,34 +29,52 @@
 
 
 
-@media screen and (max-width: 1919px) {
 
+@media screen and (min-width: 993px) {
+
+    .fa_realword-grid .fa_realwords-container:nth-child(1),
+    .fa_realword-grid .fa_realwords-container:nth-child(4) {
+        padding-left: 0px;
+    }
+
+    .fa_realword-grid .fa_realwords-container:nth-child(3),
+    .fa_realword-grid .fa_realwords-container:nth-child(6) {
+        padding-right: 0px;
+    }
 }
 
 @media screen and (max-width: 992px) {
+
     .fa_realword-grid .fa_realwords-container:nth-child(5),
-    .fa_realword-grid .fa_realwords-container:nth-child(6)
-    {
+    .fa_realword-grid .fa_realwords-container:nth-child(6) {
         display: none;
     }
-    .fa_realword-grid .fa_realwords-container:nth-child(even){
+
+    .fa_realword-grid .fa_realwords-container:nth-child(even) {
         border-left: 1px solid var(--dark-15);
         border-right: none;
+        padding-right: 0px !important;
+    }
+
+    .fa_realword-grid .fa_realwords-container:nth-child(odd) {
+        padding-left: 0px !important;
     }
 }
 
 @media screen and (max-width: 576px) {
-    .fa_realword-grid .fa_realwords-container:nth-child(4)
-    {
+    .fa_realword-grid .fa_realwords-container:nth-child(4) {
         display: none;
     }
-    .fa_realword-grid .fa_realwords-container{
+
+    .fa_realword-grid .fa_realwords-container {
         border-bottom: 1px solid var(--dark-15);
     }
-    .fa_realword-grid .fa_realwords-container:nth-child(even){
+
+    .fa_realword-grid .fa_realwords-container:nth-child(even) {
         border-left: none;
     }
-    .fa_realword-grid .fa_realwords-container:nth-child(2)::after{
+
+    .fa_realword-grid .fa_realwords-container:nth-child(2)::after {
         content: none;
     }
 }
