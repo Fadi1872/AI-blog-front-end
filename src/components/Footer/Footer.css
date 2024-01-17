@@ -54,6 +54,8 @@
 }
 
 .sa_ulButton {
+    display: flex;
+    flex-direction: column;
     gap: 1.125rem;
     flex-wrap: wrap;
 }
@@ -150,8 +152,6 @@ li.after::after {
     }
 
     .sa_ulButton {
-        display: flex;
-        flex-direction: column;
         gap: 0.75rem;
     }
 
@@ -187,6 +187,7 @@ li.after::after {
         font-size: 0.875rem;
         letter-spacing: -0.02625rem;
     }
+
     .sa_arrowIcon {
         width: 1.125rem;
         height: 1.125rem;
@@ -208,12 +209,18 @@ li.after::after {
         flex-direction: row;
     }
 
+    .sa_order {
+        order: -1;
+    }
+
     .sa_order_1 {
         order: 1;
     }
+
     .sa_order_2 {
         order: 2;
     }
+
     .sa_order_3 {
         order: 3;
     }
@@ -221,6 +228,7 @@ li.after::after {
     .sa_order_4 {
         order: 4;
     }
+
     .sa_order_5 {
         order: 5;
     }
