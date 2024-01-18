@@ -5,6 +5,11 @@
     border-radius: 12px;
 }
 
+.fa_play-video_icon{
+    width: 70px;
+    aspect-ratio: 1;
+}
+
 .fa_customVideo-play_button{
     position: absolute;
     bottom: 0px;
@@ -23,6 +28,11 @@
     .fa_CustomVideo video{
         height: 331px;
         border-radius: 10px;
+    }
+
+    .fa_play-video_icon{
+        width: 50px;
+        aspect-ratio: 1;
     }
 }
 
