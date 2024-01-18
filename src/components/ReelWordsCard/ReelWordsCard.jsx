@@ -1,7 +1,7 @@
 import { Col } from 'react-bootstrap'
-import { AiFillStar, AiOutlineStar } from 'react-icons/ai';
 
 import './ReelWordsCard.css'
+import StarsRate from '../StarsRate/StarsRate'
 
 function ReelWordsCard({ img, userName, location, rate, words }) {
     return (
@@ -17,18 +17,7 @@ function ReelWordsCard({ img, userName, location, rate, words }) {
             </div>
             <div className='fa_realwords-card_body position-relative'>
                 <div className='fa_realword-rate'>
-                    {(() => {
-                        let starts = [];
-                        for (let index = 1; index <= 5; index++) {
-                            if (index <= rate) {
-                                starts.push(<AiFillStar key={index} />)
-                            } else {
-                                starts.push(<AiOutlineStar key={index} />)
-                            }
-                        }
-                        return starts;
-                    }
-                    )()}
+                    <StarsRate rate={rate} />
                 </div>
                 <div>
                     <p className='mb-0 sub_title-125 text-white text-center'>{words} </p>

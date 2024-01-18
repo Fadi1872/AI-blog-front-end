@@ -2,7 +2,7 @@ import { useRef, useState } from 'react'
 import './CustomVideo.css'
 import play from './../../assets/icons/play.svg'
 
-function CustomVideo({ video }) {
+function CustomVideo({ video, podcast, episode }) {
 
     const [watched, setwatched] = useState(false);
     const [duration, setdurationV] = useState('00:00');
@@ -19,8 +19,8 @@ function CustomVideo({ video }) {
         console.log(duration);
     }
 
-    return ( 
-        <div className='fa_CustomVideo position-relative'>
+    return (  
+        <div className={`fa_CustomVideo position-relative ${podcast && 'fa_podcast-vid'} ${episode && 'fa_episod-vid'}`}>
             <video src={video} controls={watched} ref={vid} onLoadedMetadata={handleVideo}>user video</video>
             <div className={`fa_customVideo-play_button ${watched && 'd-none'}`}>
                 <img src={play} alt="play icon" onClick={handleplay} className='cursor fa_play-video_icon' />
