@@ -7,14 +7,15 @@
 
 .fa_customVideo-play_button{
     position: absolute;
-    bottom: 30px;
-    left: 30px;
-    right: 30px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    padding: 30px;
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
 
-    background: linear-gradient(to top , #262626, tranparent);
+    background: linear-gradient(to top, #141414, #fff0);
 }
 
 

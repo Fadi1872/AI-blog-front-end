@@ -10,7 +10,7 @@
     flex-direction: column;
 }
 
-.HJ_SectionTitle  .HJ_Titles .HJ_title_margin {
+.HJ_SectionTitle .HJ_Titles .HJ_title_margin {
     margin-top: 16px;
 }
 
@@ -27,29 +27,31 @@
         font-size: 1rem;
         letter-spacing: -0.03rem;
     }
+
     .HJ_SectionTitle .HJ_mainPart {
         flex-direction: column;
-        gap:30px;
+        gap: 30px;
     }
-   
+
 
 }
 
- @media screen and (max-width : 992px) {
+@media screen and (max-width : 992px) {
     .HJ_SectionTitle {
         padding: 60px 0px;
     }
+
     .HJ_subTitle {
         padding: 4px 10px !important;
         font-size: 0.9rem !important;
         letter-spacing: -0.02625rem;
     }
-} 
+}
 
 @media screen and (max-width: 576px) {
     .HJ_SectionTitle {
         padding: 40px 0px;
-    
+
     }
-  
-} 
+
+}

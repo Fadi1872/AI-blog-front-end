@@ -1,17 +1,15 @@
-.HJ_section_space{
+.HJ_section_space {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    gap: 250px;
- 
-}
-.HJ_button{
-    width: max-content;
-     
 }
 
-.section_button{
+.HJ_button {
+    width: max-content;
+}
+
+.section_button {
     padding: 18px 24px;
     gap: 10px;
     border: 1px solid var(--dark-15);
@@ -23,14 +21,11 @@
     justify-content: center;
     align-items: center;
     width: max-content;
-
-  
-    
 }
 
 @media screen and (max-width: 1919px) {
 
-    .section_button{
+    .section_button {
         padding: 14px 20px;
         border-radius: 8px;
         display: flex;
@@ -39,24 +34,34 @@
     }
 
 }
-@media screen and (max-width : 992px){
 
-    .HJ_section_space{
+@media screen and (max-width : 992px) {
+
+    .HJ_section_space {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        align-items: center;
+        align-items: start;
         gap: 30px;
-     
     }
-    .HJ_button{
-        width: 100% !important;
+
+    .HJ_button {
+        width: 50% !important;
+        align-self: center;
     }
-    .section_button{
+
+    .section_button {
         display: flex;
         justify-content: center;
         align-items: center;
         width: 100% !important;
     }
 
+}
+
+@media screen and (max-width: 576px) {
+    .HJ_button {
+        width: 100% !important;
+        align-self: flex-start;
+    }
 }

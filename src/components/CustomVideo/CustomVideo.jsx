@@ -12,12 +12,15 @@ function CustomVideo({ video }) {
         vid.current.play();
     }
 
-    return (
+    let vidDuration = Number(vid.current.duration);
+    let duration = `${Math.floor(vidDuration/60)}:${vidDuration%60 < 10 ? `0${Math.floor(vidDuration%60)}` :Math.floor(vidDuration%60)}`
+
+    return ( 
         <div className='fa_CustomVideo position-relative'>
             <video src={video} controls={watched} ref={vid}>user video</video>
             <div className={`fa_customVideo-play_button ${watched && 'd-none'}`}>
                 <img src={play} alt="play icon" onClick={handleplay} className='cursor' />
-                <p className='mb-0 sub_title-125 text-gray-50'>20min</p>
+                <p className='mb-0 sub_title-125 text-gray-50'>{duration}min</p>
             </div>
         </div>
     )
