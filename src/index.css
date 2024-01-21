@@ -51,6 +51,14 @@
   letter-spacing: -0.03375rem;
 }
 
+.sub_title-125_feature {
+  font-family: var(--inter);
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: -0.03375rem;
+}
+
 .title-25-4 {
   font-family: var(--inter);
   font-size: 1.25rem;
@@ -145,6 +153,12 @@
     letter-spacing: -0.02625rem;
   }
 
+  .sub_title-125_feature{
+    font-size: 1rem;
+    letter-spacing: -0.03rem;
+
+  }
+
   .title-5-5 {
     font-size: 1.25rem;
     letter-spacing: -0.0375rem;
@@ -201,6 +215,11 @@
   .sub_title-125 {
     font-size: 0.75rem;
     letter-spacing: -0.0225rem;
+  }
+
+  .sub_title-125_feature{
+    font-size: 0.875rem;
+    letter-spacing: -0.02625rem;
   }
 
   .title-5-5 {
