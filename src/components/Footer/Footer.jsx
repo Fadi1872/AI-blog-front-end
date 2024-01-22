@@ -11,15 +11,17 @@ function Footer() {
             <div className='container_custom'>
                 <div className='sa_Footer'>
                     <div className='row sa_row'>
-                        <div class="col-lg-2 col-md-3 col-sm-3 col-5 sa_order_1">
-                            <div class="sa_colFooter d-flex flex-column align-items-start">
-                                <h5 class="text-white sa_titleFooter"> Home </h5>
-                                <ul class="list-unstyled d-flex flex-column sa_ulfooter">
+                        <div className="col-lg-2 col-md-3 col-sm-3 col-5 sa_order_1">
+                            <div className="sa_colFooter d-flex flex-column align-items-start">
+                                <h5 className="text-white sa_titleFooter"> Home </h5>
+                                <ul className="list-unstyled d-flex flex-column sa_ulfooter">
                                     <li className='sa_textUl'>Features</li>
                                     <li className='sa_textUl'>Blogs</li>
                                     <li className='d-flex align-items-center'>
-                                        <li className='sa_textUl'>Resources</li>
-                                        <li className='sa_newFooter'> New </li>
+                                        <ul className='d-flex align-items-center list-unstyled'>
+                                            <li className='sa_textUl'>Resources</li>
+                                            <li className='sa_newFooter'> New </li>
+                                        </ul>
                                     </li>
                                     <li className='sa_textUl'>Testimonials</li>
                                     <li className='sa_textUl'>Contact Us</li>
@@ -27,10 +29,10 @@ function Footer() {
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-lg-2 col-md-3 col-sm-3 col-5 sa_order_2">
-                            <div class="sa_colFooter d-flex flex-column align-items-start">
-                                <h5 class="text-white sa_titleFooter"> News </h5>
-                                <ul class="list-unstyled d-flex flex-column sa_ulfooter">
+                        <div className="col-lg-2 col-md-3 col-sm-3 col-5 sa_order_2">
+                            <div className="sa_colFooter d-flex flex-column align-items-start">
+                                <h5 className="text-white sa_titleFooter"> News </h5>
+                                <ul className="list-unstyled d-flex flex-column sa_ulfooter">
                                     <li className='sa_textUl'>Trending Stories</li>
                                     <li className='sa_textUl'>Featured Videos</li>
                                     <li className='sa_textUl'>Technology</li>
@@ -40,43 +42,47 @@ function Footer() {
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-lg-2 col-md-3 col-sm-3 col-5 sa_order_4">
-                            <div class="sa_colFooter d-flex flex-column align-items-start">
-                                <h5 class="text-white sa_titleFooter"> Blogs </h5>
-                                <ul class="list-unstyled d-flex flex-column sa_ulfooter">
+                        <div className="col-lg-2 col-md-3 col-sm-3 col-5 sa_order_4">
+                            <div className="sa_colFooter d-flex flex-column align-items-start">
+                                <h5 className="text-white sa_titleFooter"> Blogs </h5>
+                                <ul className="list-unstyled d-flex flex-column sa_ulfooter">
                                     <li className='sa_textUl'>Quantum Computing</li>
                                     <li className='sa_textUl'>AI Ethics</li>
                                     <li className='sa_textUl'>Space Exploration</li>
                                     <li className='d-flex align-items-center'>
-                                        <li className='sa_textUl'>Biotechnology</li>
-                                        <li className='sa_newFooter'> New </li>
+                                        <ul className='d-flex align-items-center list-unstyled'>
+                                            <li className='sa_textUl'>Biotechnology</li>
+                                            <li className='sa_newFooter'> New </li>
+                                        </ul>
                                     </li>
                                     <li className='sa_textUl'>Renewable Energy</li>
                                     <li className='sa_textUl'>Biohacking</li>
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-lg-2 col-md-3 col-sm-4 col-5 sa_order_3">
-                            <div class="sa_colFooter d-flex flex-column align-items-start">
-                                <h5 class="text-white sa_titleFooter"> Podcasts </h5>
-                                <ul class="list-unstyled d-flex flex-column sa_ulfooter">
+                        <div className="col-lg-2 col-md-3 col-sm-4 col-5 sa_order_3">
+                            <div className="sa_colFooter d-flex flex-column align-items-start">
+                                <h5 className="text-white sa_titleFooter"> Podcasts </h5>
+                                <ul className="list-unstyled d-flex flex-column sa_ulfooter">
                                     <li className='sa_textUl'>AI Revolution</li>
                                     <li className='d-flex align-items-center'>
-                                        <li className='sa_textUl'>AI Revolution</li>
-                                        <li className='sa_newFooter'> New </li>
+                                        <ul className='d-flex align-items-center list-unstyled'>
+                                            <li className='sa_textUl'>AI Revolution</li>
+                                            <li className='sa_newFooter'> New </li>
+                                        </ul>
                                     </li>
                                     <li className='sa_textUl'>TechTalk AI</li>
                                     <li className='sa_textUl'>AI Conversations</li>
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-7 col-sm-7 col-12 sa_order_5">
-                            <div class="sa_colFooter d-flex flex-column align-items-start px-1">
-                                <h5 class="text-white sa_titleFooter"> Resources </h5>
+                        <div className="col-lg-3 col-md-7 col-sm-7 col-12 sa_order_5">
+                            <div className="sa_colFooter d-flex flex-column align-items-start px-1">
+                                <h5 className="text-white sa_titleFooter"> Resources </h5>
                                 <div className='sa_ulButton'>
                                     <Link className='sa_buttonFooter text-decoration-none ' to='resources'>
                                         Whitepapers
-                                        <img src={arrow} alt="arrow" className='sa_arrowIcon'/>
+                                        <img src={arrow} alt="arrow" className='sa_arrowIcon' />
                                     </Link>
                                     <Link className='sa_buttonFooter text-decoration-none' to='resources'>
                                         Ebooks
@@ -88,7 +94,7 @@ function Footer() {
                                     </Link>
                                     <Link className='sa_buttonFooter text-decoration-none' to='resources'>
                                         Research Papers
-                                        <img src={arrow} alt="arrow" className='sa_arrowIcon'/>
+                                        <img src={arrow} alt="arrow" className='sa_arrowIcon' />
                                     </Link>
                                 </div>
                             </div>
@@ -103,9 +109,9 @@ function Footer() {
                         </ul>
                     </div>
                     <div className='d-flex align-items-center sa_iconsGap sa_order'>
-                        <Link><FaTwitter className='text-white sa_iconsFooter'/></Link>
-                        <Link><FaMedium className='text-white sa_iconsFooter'/></Link>
-                        <Link><FaLinkedin className='text-white sa_iconsFooter'/></Link>
+                        <Link><FaTwitter className='text-white sa_iconsFooter' /></Link>
+                        <Link><FaMedium className='text-white sa_iconsFooter' /></Link>
+                        <Link><FaLinkedin className='text-white sa_iconsFooter' /></Link>
                     </div>
                     <div>
                         <p className='text-dark-40 mb-0 sa_liColor'>© 2024 FutureTech. All rights reserved.</p>

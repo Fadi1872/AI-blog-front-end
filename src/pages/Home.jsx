@@ -8,9 +8,8 @@ function Home() {
   return (
     <>
       <Hero />
-      {/* <ReelWords />
-      <div className='bg-dark-08'><InterActions /></div> */}
       <Posts/>
+      <ReelWords />
     </>
   )
 }

@@ -3,6 +3,7 @@ import PostData from '../../data/posts';
 import PostCard from '../PostCard/PostCard';
 import PostsNav from '../PostsNav/PostsNav';
 import { useState } from 'react';
+import SectionTitle_Button from '../SectionTitle_button/SectionTitle_Button';
 
 function Posts() {
 
@@ -15,14 +16,17 @@ function Posts() {
     }
 
     return (
-        <div className='v-100 bg-dark-08'>
-            <PostsNav 
-            navItems = {navItems}
-            filterItems = {filterItems}
-            setItems = {setItems}
-            />
-            <PostCard item={item}/>
-        </div>
+        <>
+            <SectionTitle_Button subtitle='A Knowledge Treasure Trove' title='Explore FutureTechs In-Depth Blog Posts' buttontext='View All Blogs' />
+            <div className='v-100 bg-dark-08'>
+                <PostsNav
+                    navItems={navItems}
+                    filterItems={filterItems}
+                    setItems={setItems}
+                />
+                <PostCard item={item} />
+            </div>
+        </>
     )
 }
 

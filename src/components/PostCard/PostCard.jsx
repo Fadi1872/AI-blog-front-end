@@ -25,7 +25,7 @@ function PostCard({ item }) {
                             <p className='sa_PostDate text-gray-60'>{val.date}</p>
                             <h1 className='sa_PostTitle text-white'>{val.title}</h1>
                             <p className='sa_PostDescription text-gray-60 sub_title-125'>{val.description}</p>
-                            <InterActions />
+                            <InterActions liked={val.like} />
                         </div>
                         <div className='sa_buttonView sa_order_2'>
                             <Link className='main_button sub_title-125 text-gray-60 sa_buttonViewBlog' to='blog'>
