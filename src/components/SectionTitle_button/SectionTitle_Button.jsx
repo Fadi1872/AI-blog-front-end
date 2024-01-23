@@ -20,7 +20,6 @@ const SectionTitle_Button = ({ subtitle, title, buttontext }) => {
                 src={arrow}
                 alt="arrow"
                 className="fa_arrow-icon cursor ms-2"
-                onClick={() => setclicked(true)}
               />
             </Link>
           </div>
