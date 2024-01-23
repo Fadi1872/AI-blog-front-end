@@ -1,8 +1,12 @@
 import PodcastEpisode from '../PodcastEpisode/PodcastEpisode'
 import SectionTitle from '../SectionTitle/SectionTitle'
 import './PodcastEpisodes.css'
+import episodes from '../../data/epesodes'
+import { useState } from 'react'
 
 function PodcastEpisodes() {
+    const [playing, setPlaying] = useState(4)
+
     return (
         <>
             <SectionTitle
@@ -11,12 +15,19 @@ function PodcastEpisodes() {
             <div className='bg-dark-08 overflow-hidden'>
                 <div className="container_custom">
                     <div className='d-flex justify-content-between flex-wrap fa_episodes-grid'>
-                        <PodcastEpisode />
-                        <PodcastEpisode />
-                        <PodcastEpisode />
-                        <PodcastEpisode />
-                        <PodcastEpisode />
-                        <PodcastEpisode />
+                        {
+                            episodes.map(itme => (
+                                <PodcastEpisode
+                                    key={itme.id}
+                                    id={itme.id}
+                                    video={itme.video}
+                                    setplay={setPlaying}
+                                    played={(playing == itme.id)? true: false}
+                                    title={itme.title}
+                                    subtitle={itme.subtitle}
+                                />
+                            ))
+                        }
                     </div>
                 </div>
             </div>

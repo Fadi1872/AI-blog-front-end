@@ -1,4 +1,4 @@
-import vid1 from './../assets/videos/starship.mp4'
+import vid1 from './../assets/videos/vid1.mp4'
 import vid2 from './../assets/videos/vid2.mp4'
 
 const FeaturedVid = [
