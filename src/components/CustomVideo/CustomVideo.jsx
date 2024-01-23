@@ -1,4 +1,4 @@
-import { useRef, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import './CustomVideo.css'
 import playicon from './../../assets/icons/play.svg'
 
@@ -8,6 +8,11 @@ function CustomVideo({ video, podcast, episode, play, set, id }) {
     const [duration, setdurationV] = useState('00:00');
     const vid = useRef(null);
 
+    useEffect(() => {
+        (play) ? null : vid.current.pause();
+        console.log('hhh');
+    }, [play])
+
     const handleplay = () => {
         setwatched(true);
         vid.current.play();
@@ -15,7 +20,7 @@ function CustomVideo({ video, podcast, episode, play, set, id }) {
     }
 
     const handleplayonly = () => {
-        (play) ? vid.current.play() : vid.current.pause();
+        
     }
 
     const handleVideo = () => {
