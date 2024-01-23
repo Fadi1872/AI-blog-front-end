@@ -10,17 +10,12 @@ function CustomVideo({ video, podcast, episode, play, set, id }) {
 
     useEffect(() => {
         (play) ? null : vid.current.pause();
-        console.log('hhh');
     }, [play])
 
     const handleplay = () => {
         setwatched(true);
         vid.current.play();
         set(id);
-    }
-
-    const handleplayonly = () => {
-        
     }
 
     const handleVideo = () => {
@@ -36,7 +31,6 @@ function CustomVideo({ video, podcast, episode, play, set, id }) {
                 controls={watched}
                 ref={vid}
                 onLoadedMetadata={handleVideo}
-                onLoad={handleplayonly}
                 onPause={() => setwatched(false)}
             >user video</video>
             <div className={`fa_customVideo-play_button ${watched && 'd-none'}`}>

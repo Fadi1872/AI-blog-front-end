@@ -37,7 +37,6 @@
     .HJ_FutureTechFeatures  .HJ_FutureFeatures_part2{
         padding: 60px 0px 60px 60px; 
         gap: 20px;
-        border-left: 0px solid var(--dark-15);
     }
    
     .HJ_FutureTechFeatures  .HJ_FutureFeatures_part2 .HJ_gap{
@@ -64,9 +63,10 @@
 
     }
     .HJ_FutureTechFeatures  .HJ_FutureFeatures_part2{
-        padding: 30px 16px;
+        padding: 30px 0px;
         gap: 20px;
         border-top: 1px solid var(--dark-15);
+        border-left: none;
 
         
     }
@@ -81,7 +81,7 @@
 @media screen and (max-width: 576px){
 
     .HJ_FutureTechFeatures{
-        padding:0px 16px;
+        padding: 0px;
     }
     .HJ_FutureTechFeatures .HJ_parts{
         align-items: flex-start;
