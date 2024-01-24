@@ -10,8 +10,9 @@ function Home() {
   return (
     <>
       <Hero />
-      <FutureTechFeatures/>
-      <Posts/>
+      <FutureTechFeatures />
+      <FutureTechResources />
+      <Posts />
       <ReelWords />
     </>
   )

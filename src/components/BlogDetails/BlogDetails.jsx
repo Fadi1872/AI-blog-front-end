@@ -33,7 +33,10 @@ function BlogDetails({publicationDate, category, readingTime, authorName}) {
                                     <p className='mb-0 sub_title-125 text-white'>{authorName}</p>
                                 </div>
                             </div>
-                            <div></div>
+                            <div>
+                                <p></p>
+                                <div></div>
+                            </div>
                         </div>
                     </Col>
                 </Row>

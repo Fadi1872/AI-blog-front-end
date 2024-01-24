@@ -18,7 +18,6 @@ function RootLayout() {
                 <Outlet />
             </main>
             {/* 
-            <SectionTitle_Button subtitle='Your Gateway to In-Depth Information' title='Unlock Valuable Knowledge with FutureTechs Resources' buttontext='View All Resources' />
             <SectionTitle_Button subtitle='Welcome to Our News Hub' title='Discover the World of Headlines'  buttontext ='View All News'/>
             <SectionTitle  subtitle='Stay Informed with Fresh Content' title='Latest Podcast Episodes' />
             <SectionTitle_GroupButtons subtitle='Dive into the Details' title='In-Depth Reports and Analysis' /> */}

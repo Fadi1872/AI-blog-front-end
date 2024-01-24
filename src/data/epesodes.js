@@ -1,5 +1,4 @@
 import vid1 from './../assets/videos/vid1.mp4'
-import vid2 from './../assets/videos/vid2.mp4'
 
 const episodes = [
     {
@@ -10,7 +9,7 @@ const episodes = [
     },
     {
         id: 1,
-        video: vid2,
+        video: vid1,
         title: 'AI Ethics',
         subtitle: 'Explore the ethical dilemmas and considerations surrounding AI with guest speaker Dr. Michael Turner.'
     },
@@ -22,7 +21,7 @@ const episodes = [
     },
     {
         id: 3,
-        video: vid2,
+        video: vid1,
         title: 'AI and the Future of Work',
         subtitle: 'Dr. Olivia White joins John Parker to discuss the evolving role of AI in the workplace.'
     },
@@ -34,7 +33,7 @@ const episodes = [
     },
     {
         id: 5,
-        video: vid2,
+        video: vid1,
         title: 'AI in Entertainment',
         subtitle: 'David Smith as they explore the influence of AI in the entertainment industry.'
     }

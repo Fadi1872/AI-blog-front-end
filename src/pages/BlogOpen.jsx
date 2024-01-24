@@ -15,7 +15,10 @@ function BlogOpen() {
         title={item.herotitle}
       />
       <BlogDetails
-        publicationDate=''
+        publicationDate={item.pubDate}
+        category={item.category}
+        authorName={item.author}
+        readingTime={item.readingTime}
       />
     </div>
   )

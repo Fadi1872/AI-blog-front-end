@@ -6,7 +6,7 @@ import { useState } from 'react'
 
 function PodcastEpisodes() {
 
-    const [playing, setPlaying] = useState(4)
+    const [playing, setPlaying] = useState(-1)
 
     return (
         <>

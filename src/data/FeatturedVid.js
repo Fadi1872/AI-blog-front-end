@@ -1,5 +1,4 @@
 import vid1 from './../assets/videos/vid1.mp4'
-import vid2 from './../assets/videos/vid2.mp4'
 
 const FeaturedVid = [
     {
@@ -10,13 +9,13 @@ const FeaturedVid = [
     },
     {
         id: 2,
-        vid: vid2,
+        vid: vid1,
         title: 'Blockchain Explained: A Revolution in Finance',
         subtitle: `Delve into the world of blockchain technology and its transformative impact on the financial industry.`
     },
     {
         id: 3,
-        vid: vid2,
+        vid: vid1,
         title: 'Breaking the Silence: Mental Health Awareness in the Workplace',
         subtitle: `An exploration of the importance of mental health awareness and the initiatives reshaping workplaces for employee well-being.`
     },

@@ -30,6 +30,7 @@
 
 .fa_flex-warp {
     flex-wrap: wrap;
+    margin-bottom: 50px;
 }
 
 
@@ -52,6 +53,10 @@
     .fa_blogDetails-subcontainer:nth-child(2) {
         margin-bottom: 20px;
     }
+
+    .fa_flex-warp {
+        margin-bottom: 40px;
+    }
 }
 
 @media screen and (max-width: 576px) {
@@ -67,5 +72,9 @@
 
     .fa_blogDetails-p {
         margin-bottom: 4px;
+    }
+
+    .fa_flex-warp {
+        margin-bottom: 30px;
     }
 }
