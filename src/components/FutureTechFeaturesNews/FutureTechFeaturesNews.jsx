@@ -1,8 +1,8 @@
 import './FutureTechFeaturesNews.css'
 
-const FutureTechFeaturesNews = ({ img, title, discription , className }) => {
+const FutureTechFeaturesNews = ({ img, title, discription , className , sar}) => {
   return (
-    <div className="HJ_FutureTechFeaturesNews">
+    <div className={`HJ_FutureTechFeaturesNews ${sar && 'sa_sar'}`}>
       <div>
         <img src={img} alt="icon"  className={className}/>
       </div>

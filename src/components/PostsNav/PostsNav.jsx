@@ -16,7 +16,6 @@ function PostsNav({ navItems, filterItems, setItems }) {
         filterItems(id)
         setActive(id)
     }
-
     return (
         <div>
             <div className='sa_PostNav'>

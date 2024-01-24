@@ -61,10 +61,6 @@
     }
 }
 
-@media screen and (max-width: 1300px) {
-    
-}
-
 @media screen and (max-width: 576px) {
     .sa_PostNav {
         padding-top: 1.25rem;

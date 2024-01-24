@@ -153,10 +153,14 @@
     letter-spacing: -0.02625rem;
   }
 
+  .title-5 {
+    font-size: 1.25rem;
+    letter-spacing: -0.0375rem;
+  }
+
   .sub_title-125_feature{
     font-size: 1rem;
     letter-spacing: -0.03rem;
-
   }
 
   .title-5-5 {
@@ -217,6 +221,11 @@
     letter-spacing: -0.0225rem;
   }
 
+  .title-5 {
+    font-size: 1.125rem;
+    letter-spacing: -0.03375rem;
+  }
+  
   .sub_title-125_feature{
     font-size: 0.875rem;
     letter-spacing: -0.02625rem;

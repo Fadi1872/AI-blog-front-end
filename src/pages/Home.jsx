@@ -4,6 +4,7 @@ import ReelWords from '../components/ReelWords/ReelWords'
 import FutureTechFeatures from '../components/FutureTechFeatures/FutureTechFeatures'
 import InterActions from '../components/InterActions/InterActions'
 import Posts from '../components/Posts/Posts'
+import FutureTechResources from '../components/FutureTechResources/FutureTechResources'
 
 function Home() {
   return (
