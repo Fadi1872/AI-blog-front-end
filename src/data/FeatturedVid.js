@@ -29,3 +29,4 @@ const FeaturedVid = [
 ]
 
 export default FeaturedVid
+
