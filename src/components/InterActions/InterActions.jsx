@@ -6,14 +6,15 @@ import { FaRegComment } from "react-icons/fa";
 import { TbSend } from "react-icons/tb";
 
 
-function InterActions() {
+function InterActions({ liked }) {
 
-    const [changeColor, setChangeColor] = useState(false)
+    const [changeColor, setChangeColor] = useState(liked)
 
     return (
         <div className='d-flex align-items-center sa_InterActionsDiv'>
             <div className='sa_loveAction cursor'>
-                <button className='border-0 bg-transparent p-0 d-flex align-items-center'
+                <button
+                    className='border-0 bg-transparent p-0 d-flex align-items-center'
                     onClick={() => setChangeColor(!changeColor)}>
                     {
                         (changeColor)

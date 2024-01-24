@@ -33,14 +33,11 @@ function Hero() {
                 <div className='fa_heroLine-vertical'></div>
                 {
                   NumbersData.slice(0, 3).map(item => (
-                    <>
-                      <NumCard
-                        key={item.id}
-                        number={item.number}
-                        subtext={item.subText}
-                      />
-                      <div className='fa_heroLine'></div>
-                    </>
+                    <NumCard
+                      key={item.id}
+                      number={item.number}
+                      subtext={item.subText}
+                    />
                   ))
                 }
               </div>
@@ -74,7 +71,7 @@ function Hero() {
               title='Expert Contributors'
               subtitle='Trusted Insights'
               discription='50+ renowned AI experts on our team' />
-            <HeroNews 
+            <HeroNews
               img={news3}
               title='Global Readership'
               subtitle='Worldwide Impact'

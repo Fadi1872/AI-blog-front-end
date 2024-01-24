@@ -1,8 +1,11 @@
 import React from 'react'
+import AskedQuestions from '../components/AskedQuestions/AskedQuestions'
 
 function Contact() {
   return (
-    <div>Contact</div>
+    <div className='mt-5 pt-5'>
+      <AskedQuestions />
+    </div>
   )
 }
 
