@@ -5,8 +5,6 @@ import PostData from '../../data/posts';
 
 function PostsNav({ navItems, filterItems, setItems }) {
 
-    const 
-
     return (
         <div>
             <div className='sa_PostNav'>
