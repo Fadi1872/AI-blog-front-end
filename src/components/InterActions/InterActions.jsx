@@ -6,9 +6,13 @@ import { FaRegComment } from "react-icons/fa";
 import { TbSend } from "react-icons/tb";
 
 
-function InterActions({ liked }) {
+function InterActions({ liked, likes, comments, shares, hideComment }) {
 
     const [changeColor, setChangeColor] = useState(liked)
+    let showlikes;
+    (likes > 999)
+    ? showlikes = `${Math.floor(likes/1000)}${(likes%1000 == 0)?'k':`.${Math.floor((likes%1000)/100)}k`}`
+    : showlikes = likes;
 
     return (
         <div className='d-flex align-items-center sa_InterActionsDiv'>
@@ -22,15 +26,18 @@ function InterActions({ liked }) {
                             : <FaRegHeart className='sa_loveIcon text-dark-40' />
                     }
                 </button>
-                <p className='sa_loveText text-gray-60 mb-0'>24.5k</p>
+                <p className='sa_loveText text-gray-60 mb-0'>{showlikes}</p>
             </div>
-            <div className='sa_loveAction cursor'>
+            {
+                !hideComment&&
+                <div className='sa_loveAction cursor'>
                 <FaRegComment className='sa_loveIcon text-dark-40' />
-                <p className='sa_loveText text-gray-60 mb-0 '>50</p>
+                <p className='sa_loveText text-gray-60 mb-0 '>{comments}</p>
             </div>
+            }
             <div className='sa_loveAction cursor'>
                 <TbSend className='sa_loveIcon text-dark-40' />
-                <p className='sa_loveText text-gray-60 mb-0 '>20</p>
+                <p className='sa_loveText text-gray-60 mb-0 '>{shares}</p>
             </div>
         </div>
     )

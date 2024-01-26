@@ -7,18 +7,15 @@ import blogs from '../data/blogs';
 function BlogOpen() {
   const { id } = useParams();
   const item = blogs[id - 1];
-  console.log(id);
+  console.log(item);
   return (
     <div>
       <BlogHero
         img={item.img}
-        title={item.herotitle}
+        title={item.title}
       />
       <BlogDetails
-        publicationDate={item.pubDate}
-        category={item.category}
-        authorName={item.author}
-        readingTime={item.readingTime}
+        item={item}
       />
     </div>
   )
