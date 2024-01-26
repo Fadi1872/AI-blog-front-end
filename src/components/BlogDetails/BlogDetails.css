@@ -11,7 +11,7 @@
 }
 
 .fa_blogDetails {
-    padding: 80px 0px 80px 80px;
+    padding: 80px 16px 80px 80px;
 }
 
 .fa_blogDetails-subcontainer {
@@ -119,11 +119,13 @@
 .fa_down-container {
     background: linear-gradient(to top, var(--dark-08) 30%, #fff0);
     transform: translateY(-60%);
+    margin-bottom: -50px;
 }
 
 .fa_down-container.fa_show-all-content {
     background: linear-gradient(to top, var(--dark-08) 30%, #fff0);
     transform: translateY(0%);
+    margin-bottom: 0px;
 }
 
 .fa_down-container button {
@@ -147,7 +149,7 @@
     }
 
     .fa_blogDetails {
-        padding: 60px 0px 60px 60px;
+        padding: 60px 16px 60px 60px;
     }
 
     .fa_blogDetails-p {
@@ -212,8 +214,6 @@
 @media screen and (max-width: 992px) {
     .fa_blogDetails-interactions {
         padding: 20px 16px;
-        display: flex;
-        justify-content: center;
     }
 
     .fa_blogDetails {
@@ -243,5 +243,22 @@
     .fa_blog-title {
         font-size: 1.125rem;
         letter-spacing: -0.03375rem;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .fa_blogDetails-interactions{
+        display: flex;
+        justify-content: center;
+    }
+
+    .fa_blogDetails-interactions .fa_interactions-line{
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .fa_blogDetails-right{
+        border: none;
+        border-bottom: 1px solid var(--dark-15);
     }
 }
