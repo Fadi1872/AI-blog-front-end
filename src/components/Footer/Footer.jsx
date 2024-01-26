@@ -20,7 +20,7 @@ function Footer() {
                                     <li className='d-flex align-items-center'>
                                         <ul className='d-flex align-items-center list-unstyled'>
                                             <li className='sa_textUl'>Resources</li>
-                                            <li className='sa_newFooter'> New </li>
+                                            <li className='sa_newFooter'> <span>New</span> </li>
                                         </ul>
                                     </li>
                                     <li className='sa_textUl'>Testimonials</li>
@@ -52,7 +52,7 @@ function Footer() {
                                     <li className='d-flex align-items-center'>
                                         <ul className='d-flex align-items-center list-unstyled'>
                                             <li className='sa_textUl'>Biotechnology</li>
-                                            <li className='sa_newFooter'> New </li>
+                                            <li className='sa_newFooter'> <span>New</span> </li>
                                         </ul>
                                     </li>
                                     <li className='sa_textUl'>Renewable Energy</li>
@@ -68,7 +68,7 @@ function Footer() {
                                     <li className='d-flex align-items-center'>
                                         <ul className='d-flex align-items-center list-unstyled'>
                                             <li className='sa_textUl'>AI Revolution</li>
-                                            <li className='sa_newFooter'> New </li>
+                                            <li className='sa_newFooter'> <span>New</span> </li>
                                         </ul>
                                     </li>
                                     <li className='sa_textUl'>TechTalk AI</li>
