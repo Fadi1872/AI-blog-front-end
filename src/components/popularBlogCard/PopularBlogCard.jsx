@@ -6,8 +6,8 @@ const PopularBlogCard = ({ item }) => {
     <div className="HJ_popularBlog">
       <div className="container_custom">
         <div className="HJ_CardBlog">
-          <div className="HJ_CardBlog_image">
-            <img src={item.img} alt="Popular Blog" />
+          <div className="HJ_CardBlog_image ">
+            <img src={item.img} alt="Popular Blog" className="object-fit-cover" />
           </div>
 
           <div className="HJ_CardBlog_body">
@@ -35,7 +35,6 @@ const PopularBlogCard = ({ item }) => {
                 </p>
               </div>
             </div>
-
             <div className="d-flex justify-content-between align-items-start ">
               <div className="HJ_space_iconsCard">
                 <InterActions

@@ -9,9 +9,7 @@ const SectionTitle_GroupButtons = ({ subtitle, title }) => {
           <div className="HJ_Titles">
             <h6 className="HJ_subTitle">{subtitle} </h6>
             <h2 className="HJ_title_margin  title-3  text-absolute-White">
-              
               {title}
-
             </h2>
           </div>
           <div className='HJ_learningResources_part'>

@@ -3,6 +3,7 @@ import { useParams } from 'react-router-dom'
 import BlogHero from '../components/BlogHero/BlogHero';
 import BlogDetails from '../components/BlogDetails/BlogDetails';
 import blogs from '../data/blogs';
+import BlogCards from '../components/BlogCards/BlogCards';
 
 function BlogOpen() {
   const { id } = useParams();
@@ -17,6 +18,7 @@ function BlogOpen() {
       <BlogDetails
         item={item}
       />
+      <BlogCards />
     </div>
   )
 }

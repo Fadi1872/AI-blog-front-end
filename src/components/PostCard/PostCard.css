@@ -7,7 +7,7 @@
 .sa_postContainer {
     display: flex;
     align-items: flex-start;
-    justify-content: flex-start;
+    justify-content: space-between;
     flex-wrap: wrap;
     gap: 3.12rem;
 }
@@ -139,7 +139,7 @@
     }
 }
 
-@media screen and (max-width: 1007px){
+@media screen and (max-width: 1013px){
     .sa_order_1 {
         order: 1;
     }
@@ -148,9 +148,6 @@
     }
     .sa_order_3 {
         order: 3;
-    }
-    .sa_postContainer{
-        justify-content: space-between;
     }
 }
 
