@@ -6,7 +6,7 @@
 }
 
 .fa_asked-right{
-    padding: 80px !important;
+    padding: 80px 0 80px 80px !important;
     padding-right: 0px !important;
 }
 
@@ -23,7 +23,7 @@
         border-bottom: 1px solid var(--dark-15);
     }
     .fa_asked-right{
-        padding: 60px !important;
+        padding: 60px 0px 60px 60px !important;
     }
     .fa_asked-button{
         margin-top: 30px !important;

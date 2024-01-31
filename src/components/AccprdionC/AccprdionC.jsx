@@ -9,7 +9,7 @@ function AccprdionC() {
     console.log(active);
 
     return (
-        <div className='fa_accordion'>
+        <div className='fa_accordion'> 
             {
                 Questions.map(ques => (
                     <AccordionItemC
