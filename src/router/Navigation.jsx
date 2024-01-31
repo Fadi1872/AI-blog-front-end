@@ -12,7 +12,7 @@ function Navigation() {
 
     const router = createBrowserRouter(
         createRoutesFromElements(
-            <Route path='/' element={<RootLayout />}>
+            <Route path='/AI-blog-front-end' element={<RootLayout />}>
                 <Route index element={<Home />} />
                 <Route path='blog' element={<Outlet />} >
                     <Route path='news' element={<News />} />

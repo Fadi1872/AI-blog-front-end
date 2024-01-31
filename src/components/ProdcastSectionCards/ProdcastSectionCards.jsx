@@ -21,12 +21,11 @@ const ProdcastSectionCards = () => {
             rate= '5'
             host_name='Dr. Sarah Mitchell'
           />
-
           <ProdcastCard
             video={vid1}
-            played={playing}
+            played={(playing == 1) ? true: false}
             setplay={setPlaying}
-            id='1'
+            id={1}
             title='Delves into the transformative impact of AI'
             paragraph='Join Dr. Sarah Mitchell as she delves into the transformative impact of AI on industries, featuring expert interviews and real-world case studies. Explore the possibilities of AI in healthcare, finance, and more.'
             total_episode='50'
@@ -34,7 +33,6 @@ const ProdcastSectionCards = () => {
             frequency='Weekly'
           />
         </div>
-       
       </div>
 
       <div className='sa_BorderBottom'></div>
@@ -46,23 +44,19 @@ const ProdcastSectionCards = () => {
               rate= '5'
               host_name='Mark Anderson'
             />
-
             <ProdcastCard
               video={vid1}
-              played={playing}
+              played={(playing == 2) ? true: false}
               setplay={setPlaying}
-              id='2'
+              id={2}
               title='Engage in thought-provoking conversations with leading experts.'
               paragraph='Mark discusses the future of AI, the impact on society, and how its shaping industries worldwide. Engage in thought-provoking conversations with leading experts.'
               total_episode='40'
               average_episode_length='40 min'
               frequency='Monthly'
             />
-
           </div>
-        
         </div>
-
     </div>
   )
 }
