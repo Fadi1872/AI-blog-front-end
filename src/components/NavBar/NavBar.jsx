@@ -22,7 +22,7 @@ function NavBar() {
     'position': 'fixed',
     'top': 0
   }
-
+ 
 const handleScrolling = () => {
   const scrollY = window.scrollY;
   if(scrollY > topnav.current.offsetHeight){
@@ -56,7 +56,7 @@ useEffect(() => {
             <img src={logo} alt="FuturTech" className='fa_nav-logo' />
           </div>
           <nav className={`d-flex align-items-center fa_navLinks ${open && 'fa_nav-open'}`} onClick={() => setopen(false)}>
-            <NavLink to='/'>Home</NavLink>
+            <NavLink to='/AI-blog-front-end'>Home</NavLink>
             <NavLink to='blog/news'>News</NavLink>
             <NavLink to='podcast'>Podcast</NavLink>
             <NavLink to='resources'>Resources</NavLink>
