@@ -1,5 +1,6 @@
 .fa_blogDetails-container {
     border-top: 1px solid var(--dark-15);
+    border-bottom: 1px solid var(--dark-15);
 }
 
 .fa_blogDetails-right {
