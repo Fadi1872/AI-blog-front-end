@@ -110,6 +110,19 @@
         font-size: 0.875rem;
         letter-spacing: -0.02625rem;
     }
+
+    .sa_DivDateCategAuth {
+        justify-content: space-between;
+    }
+
+    .sa_Div3 {
+        width: 48.5%;
+    }
+
+    .sa_Div_3 {
+        margin-top: 0;
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 576px) {
@@ -124,20 +137,6 @@
     }
 
     .sa_buttDwonNow {
-        width: 100%;
-    }
-
-    .sa_DivDateCategAuth {
-        justify-content: space-between;
-
-    }
-
-    .sa_Div3 {
-        width: 48.5%;
-    }
-
-    .sa_Div_3 {
-        margin-top: 0;
         width: 100%;
     }
 }
