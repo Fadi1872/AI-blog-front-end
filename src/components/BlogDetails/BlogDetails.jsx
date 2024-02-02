@@ -6,7 +6,6 @@ import { useState } from 'react'
 
 function BlogDetails({ item }) {
     const [show, setshow] = useState(false)
-    console.log(show);
     return (
         <div className='bg-dark-08 fa_blogDetails-container overflow-hidden'>
             <div className='container_custom'>

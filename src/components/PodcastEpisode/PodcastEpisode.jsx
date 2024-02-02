@@ -3,15 +3,15 @@ import './PodcastEpisode.css'
 import { Link } from 'react-router-dom'
 import arrow from './../../assets/icons/arrow.svg'
 
-function PodcastEpisode({video, played, title, subtitle, id, setplay}) {
+function PodcastEpisode({ video, played, title, subtitle, id, setplay }) {
     return (
         <div className='fa_episode'>
-            <CustomVideo 
-            video={video} 
-            play={played} 
-            episode
-            set={setplay}
-            id={id} 
+            <CustomVideo
+                video={video}
+                play={played}
+                episode
+                set={setplay}
+                id={id}
             />
             <div className="fa_episodtitle-conatiner">
                 <p className='fa_episode-title text-white'>{title}</p>

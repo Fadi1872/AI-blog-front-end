@@ -8,7 +8,7 @@ import BlogCards from '../components/BlogCards/BlogCards';
 function BlogOpen() {
   const { id } = useParams();
   const item = blogs[id - 1];
-  console.log(item);
+
   return (
     <div>
       <BlogHero

@@ -18,6 +18,10 @@
   --inter: "Inter", sans-serif;
 }
 
+body{
+  background-color: var(--dark-08);
+}
+
 
 .text-absolute-White {
   color: var(--absolute-White);

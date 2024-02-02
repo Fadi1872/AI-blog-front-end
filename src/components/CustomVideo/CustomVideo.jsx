@@ -3,10 +3,10 @@ import './CustomVideo.css'
 import playicon from './../../assets/icons/play.svg'
 
 function CustomVideo({ video, podcast, episode, play, set, id }) {
-    console.log(play);
     const [watched, setwatched] = useState(play);
     const [duration, setdurationV] = useState('00:00');
     const vid = useRef(null);
+    
 
     useEffect(() => {
         (play) ? null : vid.current.pause();

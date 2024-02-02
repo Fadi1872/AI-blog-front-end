@@ -6,7 +6,6 @@ import './AccprdionC.css'
 function AccprdionC() {
 
     const [active, setActive] = useState(1)
-    console.log(active);
 
     return (
         <div className='fa_accordion'> 
